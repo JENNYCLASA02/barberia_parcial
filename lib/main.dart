@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Parcial Barber',
       theme: ThemeData(
         primaryColor: kPrimaryColor,
-        scaffoldBackgroundColor: Colors.white,
+        brightness: Brightness.dark
       ),
       home: const Home(),
     );
